@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  category: MyString
+  address: MyString
+  indoor: false
+  chosen_by: MyString
+  done: false
+  notes: MyText
+
+two:
+  name: MyString
+  category: MyString
+  address: MyString
+  indoor: false
+  chosen_by: MyString
+  done: false
+  notes: MyText

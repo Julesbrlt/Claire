@@ -1,0 +1,55 @@
+// app/assets/stylesheets/pages/_navbar.scss
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 24px;
+  background-color: $color-white;
+  border-bottom: 2px solid $color-blue;
+  font-family: $font-main;
+
+  .navbar-left {
+    display: flex;
+    align-items: center;
+
+    .avatar-img {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      background: $color-pink;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba($color-black, 0.1);
+
+      span {
+        color: $color-white;
+        font-weight: bold;
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .navbar-right {
+    display: flex;
+    gap: 20px;
+
+    .navbar-link {
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.95rem;
+      color: $color-pink;
+      transition: color 0.2s ease, transform 0.2s ease;
+
+      &:hover {
+        color: $color-blue;
+        transform: translateY(-1px);
+      }
+
+      &:active {
+        color: $color-pink;
+      }
+    }
+  }
+}
